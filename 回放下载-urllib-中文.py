@@ -4,7 +4,7 @@ from re import sub
 from time import time
 
 tmp = input('网址：')
-name = input('科目(例：math): ')
+name = input('名称: ')
 path = input('保存路径：') + name + '/'
 pattern = r'/\d+\.ts.*'
 url = sub(pattern, '/{}.ts', tmp)
