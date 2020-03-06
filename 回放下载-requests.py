@@ -4,7 +4,7 @@ from re import sub
 from time import time
 
 name = input('Name: ')
-path = input('path: ') + name + '/'
+path = f"{input('path: ')}/{name}/"
 tmp = input('URL: ')
 pattern = r'/\d+\.ts.*'
 url = sub(pattern, '/{}.ts', tmp)
