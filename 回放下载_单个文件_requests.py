@@ -2,7 +2,6 @@ from requests import session, packages
 from os import makedirs, remove
 from re import sub
 from time import time
-# https://dtliving.alicdn.com/live/f64e2624-f45a-42fa-b990-a31077f22f16/2.ts?auth_key=1585233365-0-0-83f853a2b07c3d139a680060c79a6c11
 packages.urllib3.disable_warnings()
 x = session()
 name = input('Name: ')
